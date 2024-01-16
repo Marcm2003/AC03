@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/checkBoxFilterByDescription"
+        style="@style/WhiteTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/filter_by_description"
+        android:textColorHint="@color/white" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFilterByStock"
+        style="@style/WhiteTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/filter_by_stock"
+        android:textColorHint="@color/white" />
+
+    <CheckBox
+        android:id="@+id/checkBoxSortByCode"
+        style="@style/WhiteTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/sort_by_code"
+        android:textColorHint="@color/white"/>
+
+    <Button
+        android:id="@+id/buttonClearFilters"
+        style="@style/WhiteTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/clear_filters" />
+</LinearLayout>

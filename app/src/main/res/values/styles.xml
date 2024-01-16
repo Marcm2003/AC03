@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DialogStyle" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowBackground">@drawable/dialog_rounded_background</item>
+        <item name="android:windowMinWidthMajor">50%</item>
+        <item name="android:windowMinWidthMinor">50%</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="ArticleContainerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:background">@drawable/rounded_background</item>
+    </style>
+
+    <style name="ArticleVerticalContainerStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="ArticleTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="DeleteButtonStyle">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:background">@drawable/ic_trash</item>
+        <item name="android:contentDescription">@string/delete_article</item>
+    </style>
+
+    <style name="WhiteTextStyle">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="WhiteHintStyle">
+        <item name="android:textColorHint">@color/white</item> <!-- Color blanco para el hint -->
+    </style>
+</resources>

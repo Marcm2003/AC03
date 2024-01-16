@@ -1,0 +1,55 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemContainer"
+    style="@style/ArticleContainerStyle">
+
+    <LinearLayout
+        style="@style/ArticleVerticalContainerStyle">
+
+        <TextView
+            android:id="@+id/textArticleCode"
+            style="@style/ArticleTextStyle"
+            android:text="@string/article_code" />
+
+        <TextView
+            android:id="@+id/textArticleDescription"
+            style="@style/ArticleTextStyle"
+            android:text="@string/article_description" />
+
+        <TextView
+            android:id="@+id/textArticlePrice"
+            style="@style/ArticleTextStyle"
+            android:text="@string/article_price" />
+
+        <TextView
+            android:id="@+id/textArticlePriceIVA"
+            style="@style/ArticleTextStyle"
+            android:text="@string/article_price_iva" />
+
+        <TextView
+            android:id="@+id/textArticleFamily"
+            style="@style/ArticleTextStyle"
+            android:text="@string/article_family" />
+
+        <TextView
+            android:id="@+id/textArticleStock"
+            style="@style/ArticleTextStyle"
+            android:text="@string/article_current_stock" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right">
+
+        <Button
+            android:id="@+id/buttonDeleteArticle"
+            style="@style/DeleteButtonStyle"
+            android:layout_gravity="center_vertical"
+            android:text="@string/delete_article" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
